@@ -77,12 +77,22 @@ To link the detections with consideration for different motion patterns of diffe
 <img src="img/Link.png"  width="361" height="275">
 </p>
 
-$$P(x_l |x_i,Δt,s_i^{(fw)},s_j^{(bw)})=E_{r_{il}}[P(x_l,r_{il}|x_i,Δt,s_i^{(fw)},s_j^{(bw)})]$$
-$$=P(x_l |x_i,Δt,r_{il}=1)P(r_{il}=1|s_i^{(fw)},s_j^{(bw)})$$
-$$+P(x_l |x_i,Δt,r_{il}=0)P(r_{il}=0|s_i^{(fw)},s_j^{(bw)})$$
+<p align="center">
+<img src="https://latex.codecogs.com/svg.image?P(x_l&space;|x_i,\Delta&space;t,s_i^{(fw)},s_j^{(bw)})&space;=&space;E_{r_{il}}&space;[P(x_l,r_{il}|x_i,\Delta&space;t,s_i^{(fw)},s_j^{(bw)})]" title="P(x_l |x_i,\Delta t,s_i^{(fw)},s_j^{(bw)}) = E_{r_{il}} [P(x_l,r_{il}|x_i,\Delta t,s_i^{(fw)},s_j^{(bw)})]" />
+</p>
+
+<p align="center">
+<img src="https://latex.codecogs.com/svg.image?=P(x_l&space;|x_i,\Delta&space;t,r_{il}=1)P(r_{il}=1|s_i^{(fw)},s_j^{(bw)})" title="=P(x_l |x_i,\Delta t,r_{il}=1)P(r_{il}=1|s_i^{(fw)},s_j^{(bw)})" />
+</p>
+
+<p align="center">
+<img src="https://latex.codecogs.com/svg.image?&plus;P(x_l&space;|x_i,\Delta&space;t,r_{il}=0)P(r_{il}=0|s_i^{(fw)},s_j^{(bw)})" title="+P(x_l |x_i,\Delta t,r_{il}=0)P(r_{il}=0|s_i^{(fw)},s_j^{(bw)})" />
+</p>
 
 
-$s_i^{(fw)}$ is the characteristics of detection $i$ related to the inference of probability of $r_{i?}$; and $s_i^{(fw)}$ is that related to $r_{?i}$.
+
+<img src="https://latex.codecogs.com/svg.image?\inline&space;s_i^{(fw)}" title="\inline s_i^{(fw)}" /> is the characteristics of detection <img src="https://latex.codecogs.com/svg.image?\inline&space;i" title="\inline i" /> related to the inference of probability of <img src="https://latex.codecogs.com/svg.image?\inline&space;r_{i?}" title="\inline r_{i?}" />; and <img src="https://latex.codecogs.com/svg.image?\inline&space;s_i^{(bw)}" title="\inline s_i^{(bw)}" /> is that related to <img src="https://latex.codecogs.com/svg.image?\inline&space;r_{?i}" title="\inline r_{?i}" />. 
+
 
 
 # Final results
